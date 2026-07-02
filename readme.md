@@ -26,4 +26,4 @@
 4. Контакты
  Email: suhanovaulana260@gmail.com
  Telegram: @ve1ix
- GitHub: velix666
+ GitHub: ve1lx666

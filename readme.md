@@ -19,3 +19,11 @@
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/velix666/personal-business-card.git
+2. Перейдите в директорию проекта:
+   cd personal-business-card
+3. Откройте файл index.html в любом современном браузере
+
+4. Контакты
+ Email: suhanovaulana260@gmail.com
+ Telegram: @ve1ix
+ GitHub: velix666

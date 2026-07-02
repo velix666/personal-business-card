@@ -1,0 +1,189 @@
+.links {
+display:flex;
+flex-direction: column;
+}
+
+.contacts {
+    display: flex;
+    gap: 15px;
+}
+
+.fa-solid.fa-at:hover {
+    transform: translateY(-5px) scale(1.1);
+}
+
+.fa-solid.fa-at {
+    color: #f0ece6;
+    font-size: 15px;
+}
+
+.contacts a {
+    text-decoration: none;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands.fa-github {
+    color: #f0ece6;
+    background-color: #242220;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;   
+}
+
+.fa-brands.fa-github:hover {
+ transform: translateY(-5px) scale(1.1);
+}
+
+.fa-brands.fa-telegram {
+    color: #f0ece6;
+    background-color: #242220;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease; 
+}
+
+.fa-brands.fa-telegram:hover {
+ transform: translateY(-5px) scale(1.1);
+}
+
+
+.fa-solid.fa-at {
+    color: #f0ece6;
+    background-color: #242220;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease; 
+}
+
+.fa-solid.fa-at:hover {
+    transform: translateY(-9px) scale(1.1);
+}
+
+body {
+    background-color: #111010;
+    color:#f0ece6 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.my-name {
+    color:#f0ece6 ;
+    margin-bottom: 0px;
+    font-family:Playfair Display;
+}
+
+.my-link {
+    color:#f0ece6;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1b1a;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.my-link:hover {
+    background-color: #242220;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.avatar {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    border: 3px solid #f0ece6;
+
+}
+
+.bio {
+    height: 130px;;
+    width: 100%;
+    position: static;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+  
+}
+
+.card{
+    width: 300px;
+    opacity: 0;
+    animation: FadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes FadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.photo {
+    position: relative;
+}
+
+.text {
+    margin-top: 50px;
+}
+
+
+.my-biography {
+    display: block;
+    color:#5a5650 ;
+    font-family:DM Sans;
+}
+
+.my-description {
+    color:#7a7470 ;
+    font-family:DM Sans;
+}
+
+.link-info {
+ color: #5a5650 ;
+ font-family:DM Sans;
+
+}
+
+.last-project {
+ color: #5a5650 ;
+ font-family:DM Sans;
+}
+
+.resume {
+ color: #5a5650 ;
+ font-family:DM Sans;
+}
+
+hr {
+ background-color: rgba(255,255,255,0.06);
+ border: none;
+ height: 1px;
+}
+
+.font {
+    font-family: DM Sans;
+}
